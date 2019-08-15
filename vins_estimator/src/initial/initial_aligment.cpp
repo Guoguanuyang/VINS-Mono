@@ -39,7 +39,6 @@ void solveGyroscopeBias(map<double, ImageFrame> &all_image_frame, Vector3d* Bgs)
 
 MatrixXd TangentBasis(Vector3d &g0)
 {
-    int nihao = 1;
     Vector3d b, c;
     Vector3d a = g0.normalized();
     Vector3d tmp(0, 0, 1);
